@@ -1,0 +1,13 @@
+Link para download do git https://git-scm.com/downloads
+Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Comando básicos do Git
+
+- DIR -> Lista os diretórios dentro do sistema operacional
+- CD/ -> Direciona para o diretório 
+- CD .. -> Voltar para diretório anterior
+- CTRL+L -> Limpar tela
+- mkdir -> Criar um nova pasta
+- echo -> Criar um novo arquivo
+- del -> Deletar apenas o arquivo
+- rmdir -> Remove todo o diretório e junto todos os seus arquivos, ou seja, remove por completo.
