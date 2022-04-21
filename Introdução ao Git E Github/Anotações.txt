@@ -1,7 +1,7 @@
 Link para download do git https://git-scm.com/downloads
 Git Bash é um terminal extendido para otimizar o uso do Git.
 
-Comando básicos do Git
+°Comando básicos do Git
 
 - DIR -> Lista os diretórios dentro do sistema operacional
 - CD/ -> Direciona para o diretório 
@@ -11,3 +11,15 @@ Comando básicos do Git
 - echo -> Criar um novo arquivo
 - del -> Deletar apenas o arquivo
 - rmdir -> Remove todo o diretório e junto todos os seus arquivos, ou seja, remove por completo.
+
+°SHA1
+
+- Significa "Secure Hash Algorithm", conjuntos de funções hash criptográficas projetadas pela NSA, gerando conjunto de characteres identificador de 40 dígitos, sendo uma forma curta de representar um arquivo.
+
+°Objetos internor do Git
+
+São eles:
+
+Blobs - Contém os metadados do objeto, que são: tipo, tamanho do arquivo, string... É um tipo de objeto usado para armazenar o conteúdo de cada arquivo em um repositório
+Trees - Objeto árvore, onde cria uma hierarquia entre os arquivos, se relaciona com uma ou mais blobs, onde havendo alteração nessas blobs, alterada toda a estrutura(sha1)
+Commits - Hierarquia, estrutura pai das trees e blobs, Nele permite que leia e grave objetos de confirmação em seu banco de dados, onde cria um objeto de confirmação, onde toda essa junção se torna o sha1.
